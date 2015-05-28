@@ -18,3 +18,10 @@ Each stack frame should have some info:
 - filePath (file{Name + Dir})
 - ... more?
 
+The stack itself should have some helpers for navigating:
+
+- getFrame() returns the top frame
+- pop() pops the top frame, returns a new call stack
+- popUntil(functionName) pops frames until a function with the name is found
+
+All stacks are immutable. Actions result in new stacks.
