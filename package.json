@@ -1,0 +1,31 @@
+{
+  "name": "call-stack",
+  "version": "0.0.1",
+  "description": "node call stack abstraction that is actually nice",
+  "main": "CallStack.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "lodash": "^3.9.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hypesystem/call-stack"
+  },
+  "keywords": [
+    "callstack",
+    "call",
+    "stack"
+  ],
+  "author": "Niels Abildgaard <me@hypesystem.dk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hypesystem/call-stack/issues"
+  },
+  "homepage": "https://github.com/hypesystem/call-stack"
+}
